@@ -1,0 +1,44 @@
+{
+	"name": "WuShuaiApp",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"start": "node node_modules/react-native/local-cli/cli.js start",
+		"test": "jest",
+		"devtools": "react-devtools"
+	},
+	"dependencies": {
+		"apisauce": "^0.14.0",
+		"eslint": "^4.4.1",
+		"react": "16.0.0-alpha.12",
+		"react-native": "0.45.1",
+		"react-native-sinoui": "^1.0.0-beta.7",
+		"react-navigation": "^1.0.0-beta.11",
+		"react-redux": "^5.0.5",
+		"reactotron-apisauce": "^1.12.2",
+		"reactotron-react-native": "^1.12.2",
+		"reactotron-redux": "^1.12.2",
+		"reactotron-redux-saga": "^1.12.2",
+		"redux": "^3.7.0",
+		"redux-logger": "^3.0.6",
+		"redux-saga": "^0.15.6",
+		"remote-redux-devtools": "^0.5.11",
+		"reselect": "^3.0.1",
+		"eslint-plugin-react-native": "^3.0.1",
+		"react-native-vector-icons": "^4.2.0"
+	},
+	"devDependencies": {
+		"babel-jest": "20.0.3",
+		"jest": "20.0.4",
+		"babel-preset-flow": "^6.23.0",
+		"babel-preset-react-native": "2.0.0",
+		"haul": "^1.0.0-beta.4",
+		"remote-redux-devtools": "^0.5.12",
+		"react-devtools": "2.3.3",
+		"react-test-renderer": "16.0.0-alpha.12",
+		"babel-plugin-transform-async-generator-functions": "^6.24.1"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
